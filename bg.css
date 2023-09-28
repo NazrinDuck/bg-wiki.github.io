@@ -1,0 +1,22 @@
+h1
+{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size :55px;
+}
+p 
+{
+    color:blue;
+}
+#cen
+{
+    align-self: center;
+}
+#headh 
+{
+    color: rgb(0, 0, 0);
+    height: 75px;
+    width:100%;
+    background-color: red;
+    align-self: center;
+}
