@@ -1,16 +1,6 @@
-h1
+.cen
 {
-    color:rgb(0, 0, 0);
     text-align: center;
-    font-size :55px;
-}
-p 
-{
-    color:blue;
-}
-#cen
-{
-    align-self: center;
 }
 #headh 
 {
@@ -19,4 +9,33 @@ p
     width:100%;
     background-color: red;
     align-self: center;
+}
+
+
+div.menu
+{
+    background-color: yellowgreen;
+    color: black;
+}
+div.theme
+{
+    background-color:crimson;
+}
+div.theme p
+{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size :150px;
+}
+div.content{
+    background-color: azure;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size :35px;
+}
+
+.wcpic
+{
+    height:"1100px";
+    width:"500px";
 }
