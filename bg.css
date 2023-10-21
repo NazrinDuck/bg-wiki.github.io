@@ -1,41 +1,121 @@
-.cen
+.backgroundimage 
 {
-    text-align: center;
+    background-image:url('img/bg_01.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:100% 100%;
 }
-#headh 
-{
-    color: rgb(0, 0, 0);
-    height: 75px;
-    width:100%;
-    background-color: red;
-    align-self: center;
-}
-
-
 div.menu
 {
     background-color: yellowgreen;
     color: black;
+    box-sizing: border-box;
+
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:50px;
+    margin-left:50px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    border-width: medium;
+    border-style:solid;
+    border-color:rgb(3, 255, 175);
+    border-radius: 20px;
 }
 div.theme
 {
     background-color:crimson;
+
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:50px;
+    margin-left:50px;
+
+    border-width: 10px;
+    border-style: outset;
+    border-color:rgb(159, 2, 2);
+    border-radius: 50px;
 }
 div.theme p
 {
     color:rgb(0, 0, 0);
     text-align: center;
-    font-size :150px;
+    font-size :100px;
 }
-div.content{
+div.content
+{
     background-color: azure;
     color:rgb(0, 0, 0);
     text-align: center;
-    font-size :35px;
-}
+    font-size :20px;
+    
+    padding-top:25px;
+	padding-bottom:25px;
+	padding-right:50px;
+	padding-left:50px;
 
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:250px;
+    margin-left:250px;
+
+    border-width: medium;
+    border-style:solid;
+    border-color:red;
+    border-radius: 25px;
+}
+div.content a:link 
+{
+    color: black;
+    text-decoration:none;
+}
+div.content a:visited 
+{
+    color: black;
+    text-decoration:none;
+}
+div.content p
+{
+    text-align:left;
+}
+.category
+{
+    background-color: yellow;
+    color:blue;
+    text-align: center;
+    float: left;
+    display: block;
+
+    padding-top:25px;
+	padding-bottom:25px;
+	padding-right:150px;
+	padding-left:150px;
+
+}
+div.menu a
+{
+    font-size: 30px;
+    font-weight:bold;
+}
+.category:hover
+{
+    background-color: rgb(199, 255, 67);
+    color: rgb(0, 179, 255);
+}
 .wcpic
 {
     height:"1100px";
     width:"500px";
+}
+
+
+img
+{
+  opacity:0.4;
 }
