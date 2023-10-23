@@ -62,12 +62,12 @@ div.content
 
     margin-top:100px;
     margin-bottom:100px;
-    margin-right:250px;
-    margin-left:250px;
+    margin-right:100px;
+    margin-left:100px;
 
     border-width: medium;
     border-style:solid;
-    border-color:red;
+    border-color:rgb(255, 255, 255);
     border-radius: 25px;
 }
 div.content a:link 
@@ -98,6 +98,10 @@ div.content p
 	padding-left:150px;
 
 }
+.menu #img
+{
+    /**/
+}
 div.menu a
 {
     font-size: 30px;
@@ -112,10 +116,4 @@ div.menu a
 {
     height:"1100px";
     width:"500px";
-}
-
-
-img
-{
-  opacity:0.4;
 }
