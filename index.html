@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>登录</title>
-    <link rel="bgstyle" type="text/css" href="\\bg.css">
+    <link rel="stylesheet" type="text/css" href="Shared/check.css">
 </head>
 <body>
     <script>
@@ -27,11 +27,14 @@
             }
         }
     </script>
-    <form name="form0">
-        <b id="ch" style="background-color: white;">请输入密码：</b><input type="text" name="code" id="ac"><hr />
-    </form>
-    <button type="button" onclick="che()">确定</button>
-    <a id="ent" href="#ent"></a>
+    <div class="checkform">
+        <form name="form0">
+                <b id="ch">请输入密码：</b><input type="text" name="code" id="ac"><hr />
+        </form>
+        <button type="button" onclick="che()">确定</button>
+        <a id="ent" href="#ent"></a>
+    </div>
+    <!--扒拉出来密码没？就在上面！-->
 
 </body>
 </html>
