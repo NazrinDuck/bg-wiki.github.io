@@ -1,0 +1,22 @@
+.checkform
+{
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:100px;
+    margin-left:100px;
+
+    padding-top:25px;
+	padding-bottom:25px;
+	padding-right:50px;
+	padding-left:50px;
+
+    background-color: rgb(204, 255, 238);
+
+    border-width: medium;
+    border-style:solid;
+    border-color:rgb(59, 229, 252);
+    border-radius: 25px;
+
+    color: black;
+    text-align: center;
+}
