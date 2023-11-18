@@ -5,25 +5,6 @@
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-div.menu {
-    background-color: rgb(13, 0, 255);
-    color: black;
-    box-sizing: border-box;
-
-    overflow: hidden;
-
-    margin: 0px -10px 0px -10px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /*border-width: medium;
-    border-style:solid;
-    border-color:rgb(51, 191, 0);
-    border-radius: 20px;*/
-}
-
 div.theme {
     background-color: rgb(255, 255, 0);
 
@@ -42,20 +23,58 @@ div.theme p {
     font-size: 100px;
 }
 
+
+
+div.menu {
+    background-color: rgb(13, 0, 255);
+    color: black;
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    margin: 0px -10px 0px -10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*border-width: medium;
+    border-style:solid;
+    border-color:rgb(51, 191, 0);
+    border-radius: 20px;*/
+}
+div.menu a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.category {
+    background-color: rgb(13, 0, 255);
+    color: rgb(255, 106, 0);
+    text-align: center;
+    float: left;
+    display: block;
+
+    padding:25px 150px 25px 150px;
+}
+.category:hover {
+    background-color: rgb(199, 255, 67);
+    color: rgb(0, 179, 255);
+}
+
+
+
+
 div.content {
     background-color: rgb(222, 254, 222);
     color: rgb(0, 0, 0);
     font-size: 20px;
 
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding:25px 50px 25px 50px;
 
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 100px 100px 100px 100px;
 
     border-width: medium;
     border-style: solid;
@@ -76,7 +95,6 @@ div.content a:visited {
     color: black;
     text-decoration: none;
 }
-
 div.content h2 {
     text-align: center;
 }
@@ -84,36 +102,11 @@ div.content h2 {
 div.content ol.list{
     background-color: rgb(251, 216, 163);
 
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 50px;
-    padding-left: 50px;
-
+    padding:25px 50px 25px 50px;
 }
-
-
-
-
-.category {
-    background-color: rgb(13, 0, 255);
-    color: rgb(255, 106, 0);
-    text-align: center;
-    float: left;
-    display: block;
-
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 150px;
-    padding-left: 150px;
-
-}
-.category:hover {
-    background-color: rgb(199, 255, 67);
-    color: rgb(0, 179, 255);
-}
-
 
 .menu #img {}
+
 
 div.imagegroups {
     background-color: bisque;
@@ -126,42 +119,25 @@ div.imagegroups {
     justify-content: center;
     overflow: scroll;
 
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 50px;
-    padding-left: 50px;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    padding:25px 50px 25px 50px;
+    margin:10px 10px 10px 10px;
 }
 
 div.imagegroups img {
     width: 500px;
     height: 300px;
 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin:10px 50px 10px 50px;
 
 }
 
 div.imagegroups #wechat {
     width: 500px;
     height: 700px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-
+    margin:10px 10px 10px 10px;
 }
 
-div.menu a {
-    font-size: 30px;
-    font-weight: bold;
-}
+
 
 
 
