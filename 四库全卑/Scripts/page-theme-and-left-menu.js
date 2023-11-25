@@ -18,10 +18,10 @@ function generateLeftMenu(){
     a1.setAttribute("target","_blank");
 
     const image = document.createElement("img");
-    image.setAttribute("alt","图片击败！！");
-    image.setAttribute("src","Images/Heads/bg-daoli-head (4).png");
 
-    a1.appendChild(image);
+
+
+
     list1.appendChild(a1);
 
 
