@@ -41,34 +41,6 @@ div.theme h1{
     top:20px;
 }
 
-/*
-div.menu {
-    background-color: yellow;
-    color: black;
-    box-sizing: border-box;
-
-    position: sticky;
-    top: 0;
-
-    overflow: hidden;
-
-    margin: 0px -10px 0px -10px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-width: medium;
-    border-style:solid;
-    border-color:rgb(51, 191, 0);
-    border-radius: 20px;
-}
-div.menu a {
-    font-size: 30px;
-    font-weight: bold;
-}
-*/
-
 
 
 ul.left-menu {
@@ -218,9 +190,6 @@ div.directory{
 
 div.imagegroups {
     background-color: bisque;
-    border-width: medium;
-    border-style: solid;
-    border-color: rgb(252, 221, 221);
     border-radius: 10px;
 
     display: flex;
@@ -232,7 +201,6 @@ div.imagegroups {
     padding:25px 50px 25px 50px;
     margin:10px 10px 10px 10px;
 }
-
 div.imagegroups img {
     width: 500px;
     height: 300px;
@@ -240,16 +208,8 @@ div.imagegroups img {
     margin:10px 50px 10px 50px;
 
 }
-
 div.imagegroups #wechat-images {
     width: 500px;
     height: 700px;
     margin:10px 10px 10px 10px;
-}
-
-
-
-.wcpic {
-    height: "1100px";
-    width: "500px";
 }

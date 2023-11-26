@@ -1,3 +1,7 @@
+function generateThemeAndMenu(){
+    generateLeftMenu();
+    generateTheme();
+}
 function generateTheme(){
     const theme = document.createElement("div");
     const themeHeader = document.createElement("h1");
@@ -11,20 +15,21 @@ function generateTheme(){
 }
 function generateLeftMenu(){
     const leftMenu = document.createElement("ul");
- //   for(var i=1;i<=6;i++){
+    leftMenu.setAttribute("class","left-menu");
+
     const list1 = document.createElement("li");
     const a1 = document.createElement("a");
     a1.setAttribute("href","bg-hidden-page1.html");
     a1.setAttribute("target","_blank");
 
     const image = document.createElement("img");
-
-
-
-
-    list1.appendChild(a1);
-
-
+    image.setAttribute("src","Images/Heads/bg-daoli-head (4).png");
+    image.setAttribute("alt","图片击败！！");
+    image.setAttribute("id","oldGod");
+    
+    a1.appendChild(image);
+    //.......
+    list1.appendChild(image);
 
     const list2 = document.createElement("li");
     const a2 = document.createElement("a");
@@ -94,3 +99,9 @@ function generateLeftMenu(){
     leftMenu.appendChild(list6);
     document.getElementById("main-page").appendChild(leftMenu);
 }
+$(document).ready(function(){
+    var scaryText = "哇袄！！！！";
+    $("#oldGod").click(function(){
+        alert("Text: " +scaryText);
+    });
+})
