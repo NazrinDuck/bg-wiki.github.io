@@ -99,9 +99,11 @@ function generateLeftMenu(){
     leftMenu.appendChild(list6);
     document.getElementById("main-page").appendChild(leftMenu);
 }
+/*
 $(document).ready(function(){
     var scaryText = "哇袄！！！！";
     $("#oldGod").click(function(){
         alert("Text: " +scaryText);
     });
 })
+*/
